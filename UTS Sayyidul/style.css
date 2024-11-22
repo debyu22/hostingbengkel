@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background: url('gambar.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  
+    }
+
+.top-form {
+    background-color: lightgrey;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 10px 34px black;
+    text-align: center;
+    width: 300px;
+}
+ 
+.title-line{
+    border: none;
+    border-top: 3px solid black;
+    width: 75%;
+    margin: 10px auto;
+}
+.top-form h2{
+    padding: 0;
+  
+} 
+
+.top-form input {
+    width: 90%;
+    padding: 5px;
+    margin: 8px 0;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: #ffff99;
+
+}
+
+.top-form a {
+    color: blue;
+    text-decoration: none;
+    font-size: 0.9em;
+    text-align: left;
+    font-weight: bold;
+}
+
+.pas {
+    text-align: left;
+    margin-left: 12px;
+}
+.bot {
+    text-align: left;
+}
+
+.top-form button {
+    width: 95%;
+    padding: 10px;
+    background-color: orange;
+    border: 1px solid black;;
+    border-radius: 8px;
+    color: black;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.top-form p {
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: black;
+}
+
+.top-form p a{
+    color: blue ;
+}
+
+.top-form  a {
+    color: Black ;
+}

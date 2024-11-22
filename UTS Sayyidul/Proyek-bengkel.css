@@ -1,0 +1,104 @@
+        body{
+
+        font-family: 'Times New Roman', Times, serif;
+        background: url('gambar.jpg') no-repeat center center fixed;
+        background-size: cover;
+        border: 2px solid black;
+        width: 98%;
+        margin-left: 5px;
+        border-radius: 7px;
+        
+        }
+        .top{
+            background: orange ;
+            color: black;
+            text-align: center;
+            padding: 2px;
+            margin: 1px; 
+        
+            
+        }
+        .nav{
+            display: flex;
+            justify-content: left ;
+            background-color: lightgray;
+            padding: 10px;  
+            border-top: 2px solid black ;
+            border-bottom:2px solid black;
+        
+        
+        
+
+        }
+        .nav a{
+            text-decoration: none;
+            color: black;
+            margin: 0 15px;
+        }
+
+
+        .nav a:hover{
+            text-decoration: underline;
+        }
+        .content{
+        
+            background-color: #e8e835;
+            padding: 3px;
+            margin: 1px;
+            font-weight: bold;
+            color: black;
+            
+        }
+        .content h2{
+            text-align: center;
+            margin-bottom: 20px;
+        
+        }
+        .title-line{
+            border: none;
+            border-top: 2px solid #333;
+            width: 25% ;
+            margin: 10px auto;
+        
+        }
+        table{
+            width: 97%;
+            border-collapse: collapse;
+            margin: 20px;
+        }
+        table th,td{
+            border : 1px solid black;
+        }
+        th,td{
+            padding: 10px;
+            text-align: center;
+        }
+        img{
+            width: 70px;
+            height: auto;
+        }
+        select{
+            padding: 5px 10px;
+            margin: 5px;
+            border: none;
+            background-color: lightgray;
+            color: white;
+            cursor: pointer;
+            border-radius: 3px;
+        
+        }
+        select:hover{
+            background-color: lightgray;
+          
+        }
+        .low{
+            margin-top: 10px;
+            background-color: #4caf50;
+            text-align: right;
+          
+            
+        }
+        .ADD-selec:hover{
+            background-color: black;
+           
+        }
